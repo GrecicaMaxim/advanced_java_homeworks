@@ -19,5 +19,6 @@ public class sarcina4 {
         for (int i = 1; i < choice; i += 2) {
             counter += arr[i];
         }
+        System.out.print("The sum of elements with odd index is " + counter);
     }
 }
